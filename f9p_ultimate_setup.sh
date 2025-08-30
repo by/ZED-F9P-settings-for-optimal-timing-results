@@ -152,6 +152,8 @@ ubx_try "Active antenna: short det"         $UBX -z CFG-HW-ANT_CFG_SHORTDET,1,7
 ubx_try "Active antenna: open det"          $UBX -z CFG-HW-ANT_CFG_OPENDET,1,7
 ubx_try "Active antenna: power-down"        $UBX -z CFG-HW-ANT_CFG_PWRDOWN,1,7
 ubx_try "Active antenna: auto-recover"      $UBX -z CFG-HW-ANT_CFG_RECOVER,1,7
+hdr "Supervisor engine"
+ubx_try "Internal shunt/ADC enable"         $UBX -z CFG-HW-ANT_SUP_ENGINE,1,7
 
 # Ports: allow only UBX on UART1; shut USB/I2C/SPI completely (IN+OUT)
 hdr "Ports & Protocols"
