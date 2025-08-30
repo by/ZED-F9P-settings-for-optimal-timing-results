@@ -35,7 +35,7 @@ MIN_CNO_DBHZ=15
 FIXEDPOS_ACC=10000
 
 # Extra PPS user delay (ns). Keep 0 unless measured vs a reference.
-USER_DELAY_NS=0
+USER_DELAY_NS=25
 
 # ---- Derive u-blox fixed-point ints for LLH/height ----
 export LAT_D LON_D HEIGHT_M
